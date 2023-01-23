@@ -1,0 +1,75 @@
+*----------------header---------------*/
+.overlay{
+    position: relative;
+    top: -100px;
+    right:-100px
+}
+/*-------------Section 1---------------*/
+.bg-for-products{
+    background-image: linear-gradient(to bottom,#a9a7a768,#ffffff00);
+
+}
+/*-------------Section 2--------------*/
+.section-2-style{
+    display: grid;
+    grid-template-columns:238px 238px;
+    justify-items: center;
+    gap:30px;
+
+}
+.fresh-1{
+    width: 238px;
+    height: 136px;
+    background:linear-gradient(to right, #ff00003c, #ff883856);
+
+}
+.fresh-2{
+    width: 238px;
+    padding: 54px 31px 31px 31px;
+    background: #E6A6231A;
+
+
+}
+.fresh-3{
+    width: 238px;
+    padding: 39px 46px 43px; 
+    background: #5776391A;
+    position: relative;
+    top:-219px
+}
+.fresh-4{
+    width: 238px;
+    height: 136px;
+    background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+/*----------------------------Section 3-----------------------*/
+.section-3-style{
+    background: linear-gradient(270deg, #FF0000 0%, #FF8938 100%);
+    opacity: 90%;
+}
+.client-image{
+    position: relative;
+    top:-20px;
+    left: -50px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.card-main{
+    position: relative;
+    z-index: 1;
+}
+.card1{
+    opacity: 30%;
+    position: relative;
+    left: 130px;
+    bottom: -100px;
+    z-index: -1;
+}
+.card2{
+    opacity: 30%;
+    position: relative;
+    top: -100px;
+    left: 130px;
+    z-index: -1 ;
+}
